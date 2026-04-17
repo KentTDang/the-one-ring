@@ -11,6 +11,10 @@ This project explores the potential privacy risks of sensor-heavy smart rings. S
 
 The goal of this project is to experimentally test these possibilities, starting with handwriting analysis using motion sensor data.
 
+## commands 
+
+witmotion-debug --path COM12
+
 ## Hardware
 
 - **Inertial Measurement Unit (IMU) Sensor**  
