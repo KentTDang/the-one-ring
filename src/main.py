@@ -1,6 +1,7 @@
-def main():
-    print("Hello from the-one-ring!")
+from witmotion import IMU
 
+def callback(msg):
+    print(msg)
 
-if __name__ == "__main__":
-    main()
+imu = IMU()
+imu.subscribe(callback)
