@@ -1,2 +1,2 @@
 run:
-	uv run src/main.py
+	cmd.exe /c l
